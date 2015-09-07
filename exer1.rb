@@ -1,0 +1,1 @@
+puts (1..10000).select{|i| i == (1..i/2).select{|j| i%j == 0}.inject(0){|sum,j| sum+j}}
