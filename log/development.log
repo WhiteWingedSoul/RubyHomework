@@ -3782,3 +3782,1351 @@ WHERE c.contype = 'f'
 ORDER BY c.conname
 
   [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 21:28:51 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (26.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPageController#home as HTML
+  Rendered static_page/home.html.erb within layouts/application (9.3ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+Completed 200 OK in 447ms (Views: 427.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/microposts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:28:53 +0700
+
+
+Started GET "/assets/scaffolds.self-f8769df9f78b4f6aa619033e7dfdcf44ca8f9243a760430c3db888c6f2618a07.css?body=1" for 127.0.0.1 at 2015-09-22 21:28:53 +0700
+
+
+Started GET "/assets/static_page.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:28:53 +0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:28:53 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-09-22 21:28:53 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-22 21:28:53 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-09-22 21:28:53 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-22 21:28:53 +0700
+
+
+Started GET "/assets/microposts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:28:53 +0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-09-22 21:28:53 +0700
+
+
+Started GET "/assets/static_page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:28:53 +0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:28:53 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 21:28:55 +0700
+Processing by StaticPageController#home as HTML
+  Rendered static_page/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 78ms (Views: 75.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/microposts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:28:55 +0700
+
+
+Started GET "/assets/scaffolds.self-f8769df9f78b4f6aa619033e7dfdcf44ca8f9243a760430c3db888c6f2618a07.css?body=1" for 127.0.0.1 at 2015-09-22 21:28:55 +0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:28:55 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-09-22 21:28:55 +0700
+
+
+Started GET "/assets/static_page.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:28:55 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-22 21:28:55 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-22 21:28:55 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-09-22 21:28:55 +0700
+
+
+Started GET "/assets/microposts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:28:55 +0700
+
+
+Started GET "/assets/static_page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:28:55 +0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:28:55 +0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-09-22 21:28:55 +0700
+
+
+Started GET "/users" for 127.0.0.1 at 2015-09-22 21:29:00 +0700
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (17.0ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (23.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 143ms (Views: 85.7ms | ActiveRecord: 18.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-09-22 21:29:02 +0700
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (93.1ms)
+  Rendered users/new.html.erb within layouts/application (94.9ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 204ms (Views: 138.3ms | ActiveRecord: 55.9ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-09-22 21:29:07 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"98F2+lPBOc9JrL+lhWRFiHvGXxdslt2YXHUO+FLzxcPmr7UKZZuuzpF+44aAktoKM1KrMbhEOBHUB+3zawfh2w==", "user"=>{"name"=>"asddsa", "email"=>"cppawe@yaasd.com"}, "commit"=>"Create User"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (51.9ms)[0m  INSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "asddsa"], ["email", "cppawe@yaasd.com"], ["created_at", "2015-09-22 14:29:07.297261"], ["updated_at", "2015-09-22 14:29:07.297261"]]
+  [1m[36m (60.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 239ms (ActiveRecord: 113.2ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2015-09-22 21:29:07 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.5ms)
+
+ActionView::Template::Error (undefined method `content' for nil:NilClass):
+    12: 
+    13: <p>
+    14:   <strong>Micropost:</strong>
+    15:   <%= @micropost.content %>
+    16: </p>
+    17: 
+    18: <%= link_to 'Edit', edit_user_path(@user) %> |
+  app/views/users/show.html.erb:15:in `_app_views_users_show_html_erb___739840690890070112_70239843316600'
+
+
+  Rendered /home/viet/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /home/viet/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/viet/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/viet/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (27.9ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2015-09-22 21:32:05 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (76.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 139ms (Views: 136.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/microposts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:32:05 +0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:32:05 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-22 21:32:05 +0700
+
+
+Started GET "/assets/static_page.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:32:05 +0700
+
+
+Started GET "/assets/static_page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:32:05 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-09-22 21:32:05 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-22 21:32:05 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-09-22 21:32:05 +0700
+
+
+Started GET "/assets/microposts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:32:05 +0700
+
+
+Started GET "/assets/scaffolds.self-f8769df9f78b4f6aa619033e7dfdcf44ca8f9243a760430c3db888c6f2618a07.css?body=1" for 127.0.0.1 at 2015-09-22 21:32:05 +0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:32:05 +0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-09-22 21:32:05 +0700
+
+
+Started GET "/users" for 127.0.0.1 at 2015-09-22 21:32:19 +0700
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 59ms (Views: 57.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2015-09-22 21:32:28 +0700
+Processing by MicropostsController#index as HTML
+  [1m[36mMicropost Load (16.7ms)[0m  [1mSELECT "microposts".* FROM "microposts"[0m
+  Rendered microposts/index.html.erb within layouts/application (19.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 74ms (Views: 56.0ms | ActiveRecord: 16.7ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2015-09-22 21:32:31 +0700
+Processing by MicropostsController#new as HTML
+  Rendered microposts/_form.html.erb (12.7ms)
+  Rendered microposts/new.html.erb within layouts/application (14.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 67ms (Views: 60.4ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/microposts" for 127.0.0.1 at 2015-09-22 21:32:39 +0700
+Processing by MicropostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y7OdFQh43GxHkWcw70uzF8iiGpmXbB6f4J1pBaRhoRZy3V7lPiJLbZ9DOxPqvSyVgDbuv0O++xZo74oOnZWFDg==", "micropost"=>{"content"=>"waoeiwaeoi", "user_id"=>"1"}, "commit"=>"Create Micropost"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (42.4ms)[0m  [1mINSERT INTO "microposts" ("content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "waoeiwaeoi"], ["user_id", 1], ["created_at", "2015-09-22 14:32:39.942410"], ["updated_at", "2015-09-22 14:32:39.942410"]]
+  [1m[35m (35.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/microposts/1
+Completed 302 Found in 85ms (ActiveRecord: 77.6ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2015-09-22 21:32:40 +0700
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.6ms)[0m  [1mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered microposts/show.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 55ms (Views: 51.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2015-09-22 21:32:41 +0700
+Processing by MicropostsController#index as HTML
+  [1m[35mMicropost Load (0.4ms)[0m  SELECT "microposts".* FROM "microposts"
+  Rendered microposts/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 56ms (Views: 54.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-09-22 21:32:46 +0700
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 65ms (Views: 63.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2015-09-22 21:32:48 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 51ms (Views: 49.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2015-09-22 21:32:51 +0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered users/_form.html.erb (2.2ms)
+  Rendered users/edit.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 67ms (Views: 65.7ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/users/1" for 127.0.0.1 at 2015-09-22 21:32:52 +0700
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5TwdET+hPea4TSXJx6X9lTsMq37P8Knivv8Zb5jsD9P0Ut7hCfuq52CfeerCU2IXc5hfWBsiTGs2jfpkoRgryw==", "user"=>{"name"=>"asddsa", "email"=>"cppawe@yaasd.com"}, "commit"=>"Update User", "id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 5ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2015-09-22 21:32:52 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 52ms (Views: 50.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-09-22 21:32:58 +0700
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 59ms (Views: 57.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-09-22 21:33:44 +0700
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 63ms (Views: 61.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/microposts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:33:44 +0700
+
+
+Started GET "/assets/scaffolds.self-f8769df9f78b4f6aa619033e7dfdcf44ca8f9243a760430c3db888c6f2618a07.css?body=1" for 127.0.0.1 at 2015-09-22 21:33:44 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-22 21:33:44 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-09-22 21:33:44 +0700
+
+
+Started GET "/assets/static_page.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:33:44 +0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:33:44 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-22 21:33:44 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-09-22 21:33:44 +0700
+
+
+Started GET "/assets/microposts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:33:44 +0700
+
+
+Started GET "/assets/static_page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:33:44 +0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:33:44 +0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-09-22 21:33:44 +0700
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mMicropost Load (0.5ms)[0m  SELECT "microposts".* FROM "microposts" WHERE "microposts"."user_id" = $1  [["user_id", 1]]
+
+
+Started GET "/users" for 127.0.0.1 at 2015-09-22 21:37:25 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (33.0ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 295ms (Views: 276.3ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/microposts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:37:26 +0700
+
+
+Started GET "/assets/scaffolds.self-f8769df9f78b4f6aa619033e7dfdcf44ca8f9243a760430c3db888c6f2618a07.css?body=1" for 127.0.0.1 at 2015-09-22 21:37:26 +0700
+
+
+Started GET "/assets/static_page.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:37:26 +0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:37:26 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-09-22 21:37:26 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-22 21:37:26 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-22 21:37:26 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-09-22 21:37:26 +0700
+
+
+Started GET "/assets/microposts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:37:26 +0700
+
+
+Started GET "/assets/static_page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:37:26 +0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:37:26 +0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-09-22 21:37:26 +0700
+
+
+Started GET "/users" for 127.0.0.1 at 2015-09-22 21:37:32 +0700
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 92ms (Views: 91.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/microposts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:37:32 +0700
+
+
+Started GET "/assets/scaffolds.self-f8769df9f78b4f6aa619033e7dfdcf44ca8f9243a760430c3db888c6f2618a07.css?body=1" for 127.0.0.1 at 2015-09-22 21:37:32 +0700
+
+
+Started GET "/assets/static_page.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:37:32 +0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:37:32 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-09-22 21:37:32 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-22 21:37:32 +0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-09-22 21:37:32 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-09-22 21:37:32 +0700
+
+
+Started GET "/assets/microposts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:37:32 +0700
+
+
+Started GET "/assets/static_page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:37:32 +0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:37:32 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-22 21:37:32 +0700
+
+
+Started GET "/users/1" for 127.0.0.1 at 2015-09-22 21:37:34 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 92ms (Views: 74.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2015-09-22 21:41:27 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mMicropost Load (0.4ms)[0m  SELECT "microposts".* FROM "microposts" WHERE "microposts"."user_id" = $1  [["user_id", 1]]
+  Rendered users/show.html.erb within layouts/application (16.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 70ms (Views: 67.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/microposts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:41:27 +0700
+
+
+Started GET "/assets/scaffolds.self-f8769df9f78b4f6aa619033e7dfdcf44ca8f9243a760430c3db888c6f2618a07.css?body=1" for 127.0.0.1 at 2015-09-22 21:41:27 +0700
+
+
+Started GET "/assets/static_page.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:41:27 +0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:41:27 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-09-22 21:41:27 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-22 21:41:27 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-22 21:41:27 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-09-22 21:41:27 +0700
+
+
+Started GET "/assets/microposts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:41:27 +0700
+
+
+Started GET "/assets/static_page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:41:27 +0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:41:27 +0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-09-22 21:41:27 +0700
+
+
+Started GET "/users/1" for 127.0.0.1 at 2015-09-22 21:42:13 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mMicropost Load (0.5ms)[0m  SELECT "microposts".* FROM "microposts" WHERE "microposts"."user_id" = $1  [["user_id", 1]]
+  Rendered users/show.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 57ms (Views: 53.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/microposts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:42:13 +0700
+
+
+Started GET "/assets/scaffolds.self-f8769df9f78b4f6aa619033e7dfdcf44ca8f9243a760430c3db888c6f2618a07.css?body=1" for 127.0.0.1 at 2015-09-22 21:42:13 +0700
+
+
+Started GET "/assets/static_page.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:42:13 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-22 21:42:13 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-09-22 21:42:13 +0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:42:13 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-22 21:42:13 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-09-22 21:42:13 +0700
+
+
+Started GET "/assets/microposts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:42:13 +0700
+
+
+Started GET "/assets/static_page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:42:13 +0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:42:13 +0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-09-22 21:42:13 +0700
+
+
+Started GET "/users" for 127.0.0.1 at 2015-09-22 21:42:17 +0700
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (5.5ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    37:   </thead>
+    38: 
+    39:   <tbody>
+    40:     <% @microposts.each do |micropost| %>
+    41:       <tr>
+    42:         <td><%= micropost.content %></td>
+    43:         <td><%= micropost.user_id %></td>
+  app/views/users/index.html.erb:40:in `_app_views_users_index_html_erb__622262388004067555_70158794595700'
+
+
+  Rendered /home/viet/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /home/viet/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /home/viet/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /home/viet/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.5ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-09-22 21:42:17 +0700
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (5.9ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    37:   </thead>
+    38: 
+    39:   <tbody>
+    40:     <% @microposts.each do |micropost| %>
+    41:       <tr>
+    42:         <td><%= micropost.content %></td>
+    43:         <td><%= micropost.user_id %></td>
+  app/views/users/index.html.erb:40:in `_app_views_users_index_html_erb__622262388004067555_70158762021160'
+
+
+  Rendered /home/viet/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered /home/viet/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /home/viet/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/viet/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.7ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-09-22 21:42:37 +0700
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 48ms (Views: 47.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/microposts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:42:38 +0700
+
+
+Started GET "/assets/scaffolds.self-f8769df9f78b4f6aa619033e7dfdcf44ca8f9243a760430c3db888c6f2618a07.css?body=1" for 127.0.0.1 at 2015-09-22 21:42:38 +0700
+
+
+Started GET "/assets/static_page.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:42:38 +0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:42:38 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-09-22 21:42:38 +0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:42:38 +0700
+
+
+Started GET "/assets/microposts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:42:38 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-22 21:42:38 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-22 21:42:38 +0700
+
+
+Started GET "/assets/static_page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:42:38 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-09-22 21:42:38 +0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-09-22 21:42:38 +0700
+
+
+Started GET "/users/1" for 127.0.0.1 at 2015-09-22 21:42:47 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mMicropost Load (0.5ms)[0m  [1mSELECT "microposts".* FROM "microposts" WHERE "microposts"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered users/show.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 61ms (Views: 58.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-09-22 21:42:49 +0700
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 60ms (Views: 58.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2015-09-22 21:42:52 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mMicropost Load (0.3ms)[0m  SELECT "microposts".* FROM "microposts" WHERE "microposts"."user_id" = $1  [["user_id", 1]]
+  Rendered users/show.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 51ms (Views: 49.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2015-09-22 21:43:03 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mMicropost Load (0.4ms)[0m  SELECT "microposts".* FROM "microposts" WHERE "microposts"."user_id" = $1  [["user_id", 1]]
+  Rendered users/show.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 57ms (Views: 54.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/microposts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:43:03 +0700
+
+
+Started GET "/assets/scaffolds.self-f8769df9f78b4f6aa619033e7dfdcf44ca8f9243a760430c3db888c6f2618a07.css?body=1" for 127.0.0.1 at 2015-09-22 21:43:03 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-09-22 21:43:03 +0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:43:03 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-22 21:43:03 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-22 21:43:03 +0700
+
+
+Started GET "/assets/static_page.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:43:03 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-09-22 21:43:03 +0700
+
+
+Started GET "/assets/microposts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:43:03 +0700
+
+
+Started GET "/assets/static_page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:43:03 +0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:43:03 +0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-09-22 21:43:03 +0700
+
+
+Started GET "/help" for 127.0.0.1 at 2015-09-22 21:43:12 +0700
+Processing by StaticPageController#help as HTML
+  Rendered static_page/help.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 63ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-09-22 21:43:15 +0700
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (15.1ms)
+  Rendered users/new.html.erb within layouts/application (17.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 71ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-09-22 21:43:21 +0700
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 53ms (Views: 52.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-09-22 21:43:22 +0700
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (2.5ms)
+  Rendered users/new.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 50ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-09-22 21:43:29 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+xsQB+TchNWVOnZwX2t1GqtREnskA2LowT/S8ItLaSHqddP30oYT1E3oKlNaneqY48XmXfDRh2FJTTH7sr9NOQ==", "user"=>{"name"=>"shazam", "email"=>"alalala@gmail.com"}, "commit"=>"Create User"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "shazam"], ["email", "alalala@gmail.com"], ["created_at", "2015-09-22 14:43:29.558952"], ["updated_at", "2015-09-22 14:43:29.558952"]]
+  [1m[35m (10.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 17ms (ActiveRecord: 11.0ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2015-09-22 21:43:29 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mMicropost Load (0.3ms)[0m  SELECT "microposts".* FROM "microposts" WHERE "microposts"."user_id" = $1  [["user_id", 2]]
+  Rendered users/show.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 50ms (Views: 48.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-09-22 21:43:31 +0700
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 51ms (Views: 49.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/2/edit" for 127.0.0.1 at 2015-09-22 21:43:33 +0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered users/_form.html.erb (1.9ms)
+  Rendered users/edit.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 55ms (Views: 54.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2015-09-22 21:43:34 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mMicropost Load (0.2ms)[0m  SELECT "microposts".* FROM "microposts" WHERE "microposts"."user_id" = $1  [["user_id", 2]]
+  Rendered users/show.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 61ms (Views: 58.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-09-22 21:43:36 +0700
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 50ms (Views: 48.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2015-09-22 21:43:37 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mMicropost Load (0.3ms)[0m  [1mSELECT "microposts".* FROM "microposts" WHERE "microposts"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered users/show.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 49ms (Views: 47.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-09-22 21:43:38 +0700
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 53ms (Views: 52.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2015-09-22 21:43:42 +0700
+Processing by MicropostsController#index as HTML
+  [1m[36mMicropost Load (0.5ms)[0m  [1mSELECT "microposts".* FROM "microposts"[0m
+  Rendered microposts/index.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 60ms (Views: 57.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2015-09-22 21:43:44 +0700
+Processing by MicropostsController#new as HTML
+  Rendered microposts/_form.html.erb (3.4ms)
+  Rendered microposts/new.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (10.8ms)
+Completed 200 OK in 65ms (Views: 64.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/microposts" for 127.0.0.1 at 2015-09-22 21:43:49 +0700
+Processing by MicropostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1DUYF5WjmXYa4fMjrzL9bW05BplyhQ/jthcq9yDNMNTFW9vno/kOd8IzrwCqxGLvJa3yv6ZX6mo+Zcn8GTkUzA==", "micropost"=>{"content"=>"wewwewewwew", "user_id"=>"1"}, "commit"=>"Create Micropost"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "microposts" ("content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "wewwewewwew"], ["user_id", 1], ["created_at", "2015-09-22 14:43:49.523471"], ["updated_at", "2015-09-22 14:43:49.523471"]]
+  [1m[35m (12.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/microposts/2
+Completed 302 Found in 22ms (ActiveRecord: 13.3ms)
+
+
+Started GET "/microposts/2" for 127.0.0.1 at 2015-09-22 21:43:49 +0700
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMicropost Load (0.4ms)[0m  [1mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered microposts/show.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 51ms (Views: 47.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2015-09-22 21:43:53 +0700
+Processing by MicropostsController#index as HTML
+  [1m[35mMicropost Load (0.4ms)[0m  SELECT "microposts".* FROM "microposts"
+  Rendered microposts/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 53ms (Views: 52.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-09-22 21:43:59 +0700
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (1.9ms)
+  Rendered users/new.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 47ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-09-22 21:44:01 +0700
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 50ms (Views: 48.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2015-09-22 21:44:03 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mMicropost Load (0.4ms)[0m  [1mSELECT "microposts".* FROM "microposts" WHERE "microposts"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered users/show.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 54ms (Views: 51.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2015-09-22 21:46:41 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mMicropost Load (0.3ms)[0m  [1mSELECT "microposts".* FROM "microposts" WHERE "microposts"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered users/show.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 75ms (Views: 71.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/microposts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:46:41 +0700
+
+
+Started GET "/assets/scaffolds.self-f8769df9f78b4f6aa619033e7dfdcf44ca8f9243a760430c3db888c6f2618a07.css?body=1" for 127.0.0.1 at 2015-09-22 21:46:41 +0700
+
+
+Started GET "/assets/static_page.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:46:41 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-09-22 21:46:41 +0700
+
+
+Started GET "/assets/static_page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:46:41 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-22 21:46:41 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-22 21:46:41 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-09-22 21:46:41 +0700
+
+
+Started GET "/assets/microposts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:46:41 +0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 21:46:41 +0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 21:46:41 +0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-09-22 21:46:41 +0700
+
+
+Started GET "/users" for 127.0.0.1 at 2015-09-22 21:46:44 +0700
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 82ms (Views: 80.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2015-09-22 21:46:45 +0700
+Processing by MicropostsController#index as HTML
+  [1m[36mMicropost Load (0.4ms)[0m  [1mSELECT "microposts".* FROM "microposts"[0m
+  Rendered microposts/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 49ms (Views: 47.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-09-22 21:46:47 +0700
+Processing by StaticPageController#home as HTML
+  Rendered static_page/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 55ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2015-09-22 21:46:48 +0700
+Processing by StaticPageController#help as HTML
+  Rendered static_page/help.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 53ms (Views: 52.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-09-22 21:46:49 +0700
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (1.8ms)
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 62ms (Views: 61.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-09-22 21:46:53 +0700
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 51ms (Views: 49.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2015-09-22 21:46:54 +0700
+Processing by MicropostsController#index as HTML
+  [1m[36mMicropost Load (0.5ms)[0m  [1mSELECT "microposts".* FROM "microposts"[0m
+  Rendered microposts/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 54ms (Views: 52.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 22:00:56 +0700
+Processing by StaticPageController#home as HTML
+  Rendered static_page/home.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 59ms (Views: 57.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2015-09-22 22:00:58 +0700
+Processing by MicropostsController#index as HTML
+  [1m[35mMicropost Load (0.4ms)[0m  SELECT "microposts".* FROM "microposts"
+  Rendered microposts/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 51ms (Views: 49.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2015-09-22 22:01:00 +0700
+Processing by MicropostsController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered microposts/_form.html.erb (30.4ms)
+  Rendered microposts/new.html.erb within layouts/application (31.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 85ms (Views: 83.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2015-09-22 22:01:24 +0700
+Processing by MicropostsController#new as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  Rendered microposts/_form.html.erb (5.9ms)
+  Rendered microposts/new.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 69ms (Views: 66.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/microposts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 22:01:24 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-22 22:01:24 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-09-22 22:01:24 +0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 22:01:24 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-22 22:01:24 +0700
+
+
+Started GET "/assets/static_page.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 22:01:24 +0700
+
+
+Started GET "/assets/scaffolds.self-f8769df9f78b4f6aa619033e7dfdcf44ca8f9243a760430c3db888c6f2618a07.css?body=1" for 127.0.0.1 at 2015-09-22 22:01:24 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-09-22 22:01:24 +0700
+
+
+Started GET "/assets/microposts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 22:01:24 +0700
+
+
+Started GET "/assets/static_page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 22:01:24 +0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 22:01:24 +0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-09-22 22:01:24 +0700
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2015-09-22 22:01:30 +0700
+Processing by MicropostsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered microposts/_form.html.erb (5.9ms)
+  Rendered microposts/new.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 54ms (Views: 52.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/microposts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 22:01:30 +0700
+
+
+Started GET "/assets/scaffolds.self-f8769df9f78b4f6aa619033e7dfdcf44ca8f9243a760430c3db888c6f2618a07.css?body=1" for 127.0.0.1 at 2015-09-22 22:01:30 +0700
+
+
+Started GET "/assets/static_page.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 22:01:30 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-09-22 22:01:30 +0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-22 22:01:30 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-22 22:01:30 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-22 22:01:30 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-09-22 22:01:30 +0700
+
+
+Started GET "/assets/microposts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 22:01:30 +0700
+
+
+Started GET "/assets/static_page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 22:01:30 +0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 22:01:30 +0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-09-22 22:01:30 +0700
+
+
+Started GET "/microposts" for 127.0.0.1 at 2015-09-22 22:01:39 +0700
+Processing by MicropostsController#index as HTML
+  [1m[35mMicropost Load (0.4ms)[0m  SELECT "microposts".* FROM "microposts"
+  Rendered microposts/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 53ms (Views: 51.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2015-09-22 22:01:41 +0700
+Processing by MicropostsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered microposts/_form.html.erb (4.9ms)
+  Rendered microposts/new.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 58ms (Views: 56.9ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/microposts" for 127.0.0.1 at 2015-09-22 22:01:45 +0700
+Processing by MicropostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bcEQMbP6/EF4NFphU2QcqhfBpOTSlNN/XHUJqUVOTVF8r9PBhaBrQKDmBkJWkoMoX1VQwgZGNvbUB+qifLppSQ==", "micropost"=>{"content"=>"asds", "user_id"=>"1"}, "commit"=>"Create Micropost"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "microposts" ("content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "asds"], ["user_id", 1], ["created_at", "2015-09-22 15:01:45.362769"], ["updated_at", "2015-09-22 15:01:45.362769"]]
+  [1m[35m (15.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/microposts/3
+Completed 302 Found in 24ms (ActiveRecord: 16.3ms)
+
+
+Started GET "/microposts/3" for 127.0.0.1 at 2015-09-22 22:01:45 +0700
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMicropost Load (0.4ms)[0m  [1mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered microposts/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 73ms (Views: 70.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2015-09-22 22:01:47 +0700
+Processing by MicropostsController#index as HTML
+  [1m[35mMicropost Load (0.4ms)[0m  SELECT "microposts".* FROM "microposts"
+  Rendered microposts/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 65ms (Views: 63.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2015-09-22 22:01:49 +0700
+Processing by MicropostsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered microposts/_form.html.erb (3.1ms)
+  Rendered microposts/new.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 54ms (Views: 52.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/microposts" for 127.0.0.1 at 2015-09-22 22:01:50 +0700
+Processing by MicropostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mGTMiE4OVPOcyavP212ijqPzkq/6g4bLIuCWn4jgSeqJCg94eFTD8kQb9+zeqz0M62dmiS5RY0KqknWUsRRt8g==", "micropost"=>{"content"=>"", "user_id"=>"2"}, "commit"=>"Create Micropost"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "microposts" ("content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", ""], ["user_id", 2], ["created_at", "2015-09-22 15:01:50.727098"], ["updated_at", "2015-09-22 15:01:50.727098"]]
+  [1m[35m (14.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/microposts/4
+Completed 302 Found in 19ms (ActiveRecord: 14.8ms)
+
+
+Started GET "/microposts/4" for 127.0.0.1 at 2015-09-22 22:01:50 +0700
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mMicropost Load (0.4ms)[0m  [1mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered microposts/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 49ms (Views: 46.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2015-09-22 22:01:52 +0700
+Processing by MicropostsController#index as HTML
+  [1m[35mMicropost Load (0.4ms)[0m  SELECT "microposts".* FROM "microposts"
+  Rendered microposts/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 52ms (Views: 50.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-09-22 22:01:54 +0700
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2015-09-22 22:01:55 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mMicropost Load (0.3ms)[0m  [1mSELECT "microposts".* FROM "microposts" WHERE "microposts"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered users/show.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 58ms (Views: 56.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-09-22 22:01:57 +0700
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 58ms (Views: 56.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2015-09-22 22:01:58 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mMicropost Load (0.3ms)[0m  SELECT "microposts".* FROM "microposts" WHERE "microposts"."user_id" = $1  [["user_id", 2]]
+  Rendered users/show.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 54ms (Views: 52.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-09-22 22:02:02 +0700
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 55ms (Views: 53.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2015-09-22 22:02:04 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mMicropost Load (0.3ms)[0m  [1mSELECT "microposts".* FROM "microposts" WHERE "microposts"."user_id" = $1[0m  [["user_id", 2]]
+  Rendered users/show.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 50ms (Views: 48.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-09-22 22:02:05 +0700
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 52ms (Views: 50.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-09-22 22:02:06 +0700
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (3.2ms)
+  Rendered users/new.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 63ms (Views: 61.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2015-09-22 22:02:09 +0700
+Processing by MicropostsController#index as HTML
+  [1m[36mMicropost Load (0.5ms)[0m  [1mSELECT "microposts".* FROM "microposts"[0m
+  Rendered microposts/index.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 58ms (Views: 56.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/microposts/3/edit" for 127.0.0.1 at 2015-09-22 22:02:10 +0700
+Processing by MicropostsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mMicropost Load (0.4ms)[0m  SELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered microposts/_form.html.erb (4.3ms)
+  Rendered microposts/edit.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 58ms (Views: 56.0ms | ActiveRecord: 0.9ms)
+
+
+Started PATCH "/microposts/3" for 127.0.0.1 at 2015-09-22 22:02:12 +0700
+Processing by MicropostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"K0sxpaIaV0TYqKMJNelNgfjuQA/SvIBUgAAV2X/CKhI6JfJVlEDARQB6/yowH9IDsHq0KQZuZd0IcvbSRjYOCg==", "micropost"=>{"content"=>"asds", "user_id"=>"2"}, "commit"=>"Update Micropost", "id"=>"3"}
+  [1m[35mMicropost Load (0.5ms)[0m  SELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "microposts" SET "user_id" = $1, "updated_at" = $2 WHERE "microposts"."id" = $3  [["user_id", 2], ["updated_at", "2015-09-22 15:02:12.942274"], ["id", 3]]
+  [1m[36m (14.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/microposts/3
+Completed 302 Found in 25ms (ActiveRecord: 15.8ms)
+
+
+Started GET "/microposts/3" for 127.0.0.1 at 2015-09-22 22:02:12 +0700
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mMicropost Load (0.4ms)[0m  SELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered microposts/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 45ms (Views: 43.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2015-09-22 22:02:14 +0700
+Processing by MicropostsController#index as HTML
+  [1m[36mMicropost Load (0.5ms)[0m  [1mSELECT "microposts".* FROM "microposts"[0m
+  Rendered microposts/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 54ms (Views: 52.5ms | ActiveRecord: 0.5ms)
